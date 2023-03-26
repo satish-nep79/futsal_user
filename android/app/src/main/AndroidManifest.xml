@@ -3,7 +3,7 @@
    <application
         android:label="futsoul_user"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_logo">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

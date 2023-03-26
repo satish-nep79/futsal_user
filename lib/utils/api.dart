@@ -8,6 +8,7 @@ class Api {
   static const String changePasswordUrl = "$baseUrl/user/reset-password";
   static const String bannersUrl = "$baseUrl/banners";
   static const String futsalsUrl = "$baseUrl/futsals/list";
+  static const String searchFutsalsUrl = "$baseUrl/search";
   static const String futsalsDetailsUrl = "$baseUrl/futsals/show";
   static const String favoriteToogleUrl = "$baseUrl/user/toggle-favourite";
   static const String favoritesUrl = "$baseUrl/user/favourites";

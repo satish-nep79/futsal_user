@@ -100,4 +100,43 @@ class FutsalRepo {
       onError("Sorry! something went wrong");
     }
   }
+
+  static Future<void> searchFutsals({
+    required String query,
+    required Function(List<Futsal> futsals) onSuccess,
+    required Function(String message) onError,
+  }) async {
+    try {
+      String url = "${Api.searchFutsalsUrl}?search=$query";
+
+      var token = StorageHelper.getToken();
+
+      var headers = {
+        "Accept": "application/json",
+        "Authorization": token.toString()
+      };
+
+      http.Response response = await HttpRequest.get(
+        Uri.parse(url),
+        headers: headers,
+      );
+
+      log("$url ===========>");
+      log(response.body);
+
+      dynamic data = json.decode(response.body);
+
+      if (data['status']) {
+        List<Futsal> futsals = futsalsFromJson(data["data"]["data"]);
+        onSuccess(futsals);
+      } else {
+        onError(data['message']);
+      }
+    } catch (e, s) {
+      log(e.toString());
+      log(s.toString());
+      onError("Sorry! something went wrong");
+    }
+  }
+
 }

@@ -47,6 +47,7 @@ dependencies:
   http_parser: ^4.0.2
   intl: ^0.18.0
   khalti_flutter: ^2.1.0
+  easy_debounce: ^2.0.3
 
 dev_dependencies:
   flutter_test:

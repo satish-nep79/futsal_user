@@ -2,8 +2,8 @@ import 'package:futsoul_user/models/futsals.dart';
 
 class Booking {
   int? id;
-  String? userId;
-  String? merchantId;
+  int? userId;
+  int? merchantId;
   String? transactionId;
   String? day;
   String? type;

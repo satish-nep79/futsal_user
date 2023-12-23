@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
-import 'package:futsoul_user/utils/image_path.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
 import 'package:futsoul_user/views/futsal/futsal_scren.dart';
 import 'package:get/get.dart';
 import '../../models/futsals.dart';

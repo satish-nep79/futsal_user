@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/dashboard/profile/change_password_controller.dart';
-import 'package:futsoul_user/utils/validators.dart';
+import 'package:futsoul_user/utils/helpers/validators.dart';
 import 'package:futsoul_user/widget/custom/custom_appbar.dart';
 import 'package:futsoul_user/widget/custom/custom_password_fields.dart';
 import 'package:futsoul_user/widget/custom/elevated_button.dart';

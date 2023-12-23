@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:futsoul_user/utils/colors.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
 import 'package:get/get.dart';
 
 class HorizontalDottedLine extends StatelessWidget {

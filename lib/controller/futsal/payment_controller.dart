@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:futsoul_user/controller/dashboard/history_controller.dart';
 import 'package:futsoul_user/models/booking.dart';
 import 'package:futsoul_user/repo/payment_repo.dart';
-import 'package:futsoul_user/utils/custom_snackbar.dart';
+import 'package:futsoul_user/utils/helpers/custom_snackbar.dart';
 import 'package:futsoul_user/views/booking_details_screen.dart';
 import 'package:get/get.dart';
 import 'package:khalti_flutter/khalti_flutter.dart';

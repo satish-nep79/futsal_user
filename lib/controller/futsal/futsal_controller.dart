@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:futsoul_user/controller/dashboard/history_controller.dart';
 import 'package:futsoul_user/controller/dashboard/home_controller.dart';
@@ -8,7 +7,7 @@ import 'package:futsoul_user/models/time_slot.dart';
 import 'package:futsoul_user/repo/booking/booking.dart';
 import 'package:futsoul_user/repo/general/favorite_repo.dart';
 import 'package:futsoul_user/repo/general/futsals_repo.dart';
-import 'package:futsoul_user/utils/custom_snackbar.dart';
+import 'package:futsoul_user/utils/helpers/custom_snackbar.dart';
 import 'package:futsoul_user/views/futsal/payment_screen.dart';
 import 'package:get/get.dart';
 import 'package:simple_fontellico_progress_dialog/simple_fontico_loading.dart';

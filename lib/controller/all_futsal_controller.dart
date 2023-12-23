@@ -2,7 +2,6 @@ import 'dart:developer';
 
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
-import 'package:futsoul_user/repo/general/favorite_repo.dart';
 import 'package:futsoul_user/repo/general/futsals_repo.dart';
 import 'package:get/state_manager.dart';
 

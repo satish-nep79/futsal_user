@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/dashboard/profile/edit_profile_controller.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/image_path.dart';
-import 'package:futsoul_user/utils/validators.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
+import 'package:futsoul_user/utils/helpers/validators.dart';
 import 'package:futsoul_user/widget/custom/custom_appbar.dart';
 import 'package:futsoul_user/widget/custom/custome_textfield.dart';
 import 'package:futsoul_user/widget/custom/elevated_button.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/models/time_slot.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
 
 class TimeSlotCard extends StatelessWidget {
   final TimeSlot timeSlot;

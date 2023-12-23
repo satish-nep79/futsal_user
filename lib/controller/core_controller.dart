@@ -1,10 +1,9 @@
-import 'dart:convert';
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/models/access_token.dart';
 import 'package:futsoul_user/models/user.dart';
-import 'package:futsoul_user/utils/storage_keys.dart';
+import 'package:futsoul_user/utils/constants/storage_keys.dart';
 import 'package:futsoul_user/views/auth/login_screen.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

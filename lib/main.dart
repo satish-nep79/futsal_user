@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/core_controller.dart';
-import 'package:futsoul_user/utils/config.dart';
-import 'package:futsoul_user/utils/theme.dart';
+import 'package:futsoul_user/utils/constants/config.dart';
+import 'package:futsoul_user/utils/config/theme.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:khalti_flutter/khalti_flutter.dart';
 
-import 'utils/pages.dart';
+import 'utils/config/pages.dart';
 import 'views/splash_screen.dart';
 
 void main() async {

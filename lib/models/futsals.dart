@@ -54,22 +54,22 @@ class Futsal {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = this.id;
-    data['name'] = this.name;
-    data['phone'] = this.phone;
-    data['email'] = this.email;
-    data['is_available'] = this.isAvailable;
-    data['from_date'] = this.fromDate;
-    data['to_date'] = this.toDate;
-    data['futsal_name'] = this.futsalName;
-    data['location'] = this.location;
-    data['banner'] = this.banner;
-    data['image'] = this.image;
-    data['price'] = this.price;
-    data['description'] = this.description;
-    data['created_at'] = this.createdAt;
-    data['updated_at'] = this.updatedAt;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['id'] = id;
+    data['name'] = name;
+    data['phone'] = phone;
+    data['email'] = email;
+    data['is_available'] = isAvailable;
+    data['from_date'] = fromDate;
+    data['to_date'] = toDate;
+    data['futsal_name'] = futsalName;
+    data['location'] = location;
+    data['banner'] = banner;
+    data['image'] = image;
+    data['price'] = price;
+    data['description'] = description;
+    data['created_at'] = createdAt;
+    data['updated_at'] = updatedAt;
     return data;
   }
 }

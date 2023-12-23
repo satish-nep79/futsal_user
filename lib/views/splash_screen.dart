@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/splash_controller.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/image_path.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
 import 'package:get/get.dart';
 
 class SplashScreen extends StatelessWidget {

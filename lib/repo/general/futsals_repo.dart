@@ -1,12 +1,11 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:futsoul_user/models/banner.dart';
 import 'package:futsoul_user/models/futsals.dart';
 import 'package:futsoul_user/models/time_slot.dart';
-import 'package:futsoul_user/utils/api.dart';
-import 'package:futsoul_user/utils/http_request.dart';
-import 'package:futsoul_user/utils/storage_keys.dart';
+import 'package:futsoul_user/utils/constants/api.dart';
+import 'package:futsoul_user/utils/helpers/http_request.dart';
+import 'package:futsoul_user/utils/constants/storage_keys.dart';
 import 'package:http/http.dart' as http;
 
 class FutsalRepo {
@@ -42,7 +41,8 @@ class FutsalRepo {
       if (data['status']) {
         List<Futsal> futsals = futsalsFromJson(data["data"]["data"]);
         int? nextPage;
-        if (data['data']["current_page"] == data['data']["pages"] && data['data']["pages"] > 1) {
+        if (data['data']["current_page"] == data['data']["pages"] &&
+            data['data']["pages"] > 1) {
           nextPage = data['data']["current_page"] + 1;
         }
         onSuccess(futsals, nextPage);
@@ -138,5 +138,4 @@ class FutsalRepo {
       onError("Sorry! something went wrong");
     }
   }
-
 }

@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:futsoul_user/models/access_token.dart';
-import 'package:futsoul_user/utils/api.dart';
-import 'package:futsoul_user/utils/http_request.dart';
+import 'package:futsoul_user/utils/constants/api.dart';
+import 'package:futsoul_user/utils/helpers/http_request.dart';
 
 import '../../models/user.dart';
 import 'package:http/http.dart' as http;

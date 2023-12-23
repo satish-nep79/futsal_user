@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
 
 class CustomBottomNavIcon extends StatelessWidget {
   final String imagePath;

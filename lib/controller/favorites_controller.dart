@@ -37,7 +37,7 @@ class FavoriteController extends GetxController{
     await FavoriteRepo.getFavorites(
       onSuccess: (favorites, nextPage) {
         isLoading.value = false;
-        this.futsals.addAll(favorites);
+        futsals.addAll(favorites);
         this.nextPage.value = nextPage;
       },
       onError: (message) {},
@@ -48,7 +48,7 @@ class FavoriteController extends GetxController{
     await FavoriteRepo.getFavorites(
       currentPage: nextPage.value,
       onSuccess: (favorites, nextPage) {
-        this.futsals.addAll(favorites);
+        futsals.addAll(favorites);
         this.nextPage.value = nextPage;
       },
       onError: (message) {},

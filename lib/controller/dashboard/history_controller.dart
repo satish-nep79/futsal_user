@@ -37,7 +37,7 @@ class HistoryController extends GetxController {
         isLoading.value = false;
         this.bookings.addAll(bookings);
         this.nextPage.value = nextPage;
-        log("Next Page ============>${nextPage}");
+        log("Next Page ============>$nextPage");
       },
       onError: (message) {
         isLoading.value = false;
@@ -51,7 +51,7 @@ class HistoryController extends GetxController {
       onSuccess: (bookings, nextPage) {
         this.bookings.addAll(bookings);
         this.nextPage.value = nextPage;
-        log("Next Page ============>${nextPage}");
+        log("Next Page ============>$nextPage");
       },
       onError: (message) {},
     );

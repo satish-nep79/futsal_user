@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/booking_details_controller.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
-import 'package:futsoul_user/utils/image_path.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
 import 'package:futsoul_user/views/dashboard/dash_screen.dart';
 import 'package:futsoul_user/views/futsal/payment_screen.dart';
 import 'package:futsoul_user/widget/custom/custom_appbar.dart';

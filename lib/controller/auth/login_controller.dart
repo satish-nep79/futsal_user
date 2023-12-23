@@ -3,13 +3,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/core_controller.dart';
 import 'package:futsoul_user/repo/auth/login_repo.dart';
-import 'package:futsoul_user/utils/custom_snackbar.dart';
+import 'package:futsoul_user/utils/helpers/custom_snackbar.dart';
 import 'package:futsoul_user/views/dashboard/dash_screen.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:simple_fontellico_progress_dialog/simple_fontico_loading.dart';
 
-import '../../utils/storage_keys.dart';
+import '../../utils/constants/storage_keys.dart';
 
 class LoginController extends GetxController {
   final formKey = GlobalKey<FormState>();

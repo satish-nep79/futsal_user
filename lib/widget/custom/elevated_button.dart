@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
 
 class CustomElevatedButton extends StatelessWidget {
   final String title;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
-import 'package:futsoul_user/utils/image_path.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
 import 'package:futsoul_user/views/auth/login_screen.dart';
 import 'package:futsoul_user/views/auth/signup_screen.dart';
 import 'package:futsoul_user/widget/custom/elevated_button.dart';

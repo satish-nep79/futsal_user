@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:futsoul_user/utils/colors.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
 
 ThemeData basicTheme() {
   const SystemUiOverlayStyle(

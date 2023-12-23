@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/dashboard/dash_controller.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/image_path.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
 import 'package:futsoul_user/views/dashboard/drawer_screen.dart';
 import 'package:futsoul_user/widget/custom/custom_bottom_nav_icon.dart';
 import 'package:get/get.dart';

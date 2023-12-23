@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/futsal/futsal_controller.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
-import 'package:futsoul_user/utils/date_time_helper.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_user/utils/helpers/date_time_helper.dart';
 import 'package:futsoul_user/widget/custom/custom_appbar.dart';
 import 'package:futsoul_user/widget/custom/elevated_button.dart';
 import 'package:futsoul_user/widget/row/date_card.dart';

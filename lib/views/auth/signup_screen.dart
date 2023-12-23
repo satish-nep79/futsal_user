@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:futsoul_user/controller/auth/signup_controller.dart';
-import 'package:futsoul_user/utils/colors.dart';
-import 'package:futsoul_user/utils/custom_text_styles.dart';
-import 'package:futsoul_user/utils/image_path.dart';
-import 'package:futsoul_user/utils/validators.dart';
+import 'package:futsoul_user/utils/constants/colors.dart';
+import 'package:futsoul_user/utils/constants/custom_text_styles.dart';
+import 'package:futsoul_user/utils/constants/image_path.dart';
+import 'package:futsoul_user/utils/helpers/validators.dart';
 import 'package:futsoul_user/views/auth/login_screen.dart';
 import 'package:futsoul_user/widget/custom/custom_password_fields.dart';
 import 'package:futsoul_user/widget/custom/custome_textfield.dart';
